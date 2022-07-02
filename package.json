@@ -4,13 +4,17 @@
   "description": "",
   "main": "1-intro.js",
   "scripts": {
+    "start": "nodemon http-stuff.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.1.3",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
   }
 }

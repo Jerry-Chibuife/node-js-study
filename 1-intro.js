@@ -5,4 +5,4 @@ if(amount < 10){
 }
 else console.log("Large number")
 
-console.log("Ohayo sekai, good morning world")
+console.log("Ohayo sekai, good morning world, This is nice")
